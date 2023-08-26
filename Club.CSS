@@ -1,1 +1,12 @@
+header {
+    background-image:linear-gradient(rgb(181,203,245), rgb(138,177,249), rgb(100,143,225), rgb(40,98,205));
+    font-size: xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
 
+a.l{
+   text-align:left; 
+    
+}

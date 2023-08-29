@@ -6,7 +6,17 @@ header {
     text-align: center;
 }
 
-a.l{
-   text-align:left; 
-    
+a.buttons:link{
+   background-color: rgb(55, 239, 233);
+   color: navy;
+   border: 2px solid gold;
+   padding: 5px 5px;
+   text-align: center;
+   text-decoration: none; 
+   display: inline-block; 
+}
+
+a.buttons:hover{
+    background-color:gold;
+    color:navy;
 }

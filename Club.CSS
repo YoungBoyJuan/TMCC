@@ -1,22 +1,92 @@
-header {
+header{
+    width:100%;
+    height:100px;
     background-image:linear-gradient(rgb(181,203,245), rgb(138,177,249), rgb(100,143,225), rgb(40,98,205));
-    font-size: xx-large;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 400;
-    text-align: center;
+    position:fixed;
 }
 
-a.buttons:link{
-   background-color: rgb(55, 239, 233);
-   color: navy;
-   border: 2px solid gold;
-   padding: 5px 5px;
-   text-align: center;
-   text-decoration: none; 
-   display: inline-block; 
+.logo{
+    float: left;
+    text-align:left;
+    line-height:155px;
 }
 
-a.buttons:hover{
-    background-color:gold;
-    color:navy;
+.logo p{
+    text-decoration: none;
+    font-size: 30px;
+    font-family:sans-serif;
+    color:white;
+    letter-spacing: 4px;
+}
+
+nav{
+    float: right;
+    line-height: 100px;
+}
+
+nav a{
+    text-decoration:none;
+    font-family: myFont;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: white;
+    padding: 36px 10px;
+    margin: 0.01px;
+    font-weight: 500;
+}
+
+nav a:hover{
+    background-color: gold;
+    color: navy;
+}
+
+.banner-area{
+    background-image: url(OIP.jpg);
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+.banner-area:after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color:darkblue;
+    opacity: .7;
+    z-index: -1;
+}
+
+.banner-area h2{
+    padding-top: 8%;
+    font-size: 80px;
+    color: white;
+}
+
+.content-area{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-color: white;
+    top: 550px;
+}
+
+.content-area h2{
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+    letter-spacing: 4px;
+}
+
+.content-area p{
+    font-family: myFont;
+    padding: 2% 0;
+    line-height: 30px;
+    text-align: justify;
 }

@@ -1,10 +1,14 @@
 header{
   width:100%;
-  height:100px;
-  background-image:linear-gradient(rgb(108, 113, 121), rgb(89, 93, 100), rgb(59, 63, 71), rgb(41, 41, 56));
+  height: 105px;
+  background-image:linear-gradient(rgb(112, 112, 121), rgb(89, 93, 100), rgb(59, 63, 71), rgb(41, 41, 56));
   position:fixed;
 }
+.header-area{
+  text-align: left;
+  font-size: larger;
 
+}
 .logo{
   float: left;
   text-align:left;
@@ -41,13 +45,13 @@ transition: .15ms;
 }
 
 nav a:active{
-  opacity: .7;
+  opacity: .5;
 
 }
 .banner-area{
   background-image: url(Programming_code.jpg);
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   top: 100px;
   height: 40vh;
   width: 100%;
@@ -67,13 +71,13 @@ nav a:active{
 }
 
 .banner-area h2{
-  padding-top: 8%;
+  padding-top: 0%;
   font-size: 80px;
   color: white;
 }
 
 .content-area{
-  width: 105%;
+  width: 102%;
   height: 790px;
   position: relative;
   background-color: rgb(255, 255, 255);
@@ -93,9 +97,6 @@ nav a:active{
   padding: 2% 0;
   line-height: 30px;
   text-align: justify;
-  color: white;
-}
-
   color: white;
 }
 

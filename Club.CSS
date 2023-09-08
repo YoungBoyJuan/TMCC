@@ -40,8 +40,10 @@ nav a{
 }
 
 nav a:hover{
-  color: rgb(0, 0, 0);
-transition: .15ms;
+  color: rgb(209, 205, 205);
+transition: .15ms;text-decoration: underline white;
+
+
 }
 
 nav a:active{

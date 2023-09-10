@@ -13,10 +13,11 @@
                     <img src="favicon.ico" width="65" height="65"> 
                 </div>
                 <div>
+                    <a href="club.html">
                     <p class="pls"> Townview Magnet Coding Club </p>
+                    </a>
                 </div>
                 <nav>
-                    <a  href="club.html"> Home</a>
                     <a  href="#"> About Us</a>
                     <a  href="#"> Mission</a>
                     <a  href="#"> Referrences</a>

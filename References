@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title> Townview Magnet Coding Club </title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="fusion.css">
+</head>
+
+<body>
+    <div class="box-area">
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="club.html">
+                    <img src="LOGOTMCCv2-removebg-preview.png" width="80" height="80" alt="TMCC Logo">
+                </div>
+                <div>
+                    <p class="pls"> Townview Magnet Coding Club </p>
+                </a>
+                </div>
+                <nav>
+                    <a  href="AboutUS.html"> About Us </a>
+                    <a  href="Missionn.html"> Mission </a>
+                    <a  href="Referrences.html"> References </a>
+                    <a  href="Contact.html"> Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="banner-area">
+            <h2>Referrences</h2>
+        </div>
+
+        <div class="content-area">
+            <div class="wrapper">
+                <h2>Tools and References Used</h2>
+                <br>
+                <h3>IDEs</h3>
+                <p> The <abbr title="Integrated Development Enviroment">IDE</abbr> we will use the most often
+                will be VScode. <br> However, if an extention were to fail, a differnet IDE may be used depending
+                on the language being taught on that day. Other IDEs that can used could be <i>Notepad</i> 
+                if dealing with <i>HTML</i>, <i>Replit</i> or another online IDE can be used during <i>Python</i> lectures.
+                In case you have no done so already, you download VScode <a href="https://code.visualstudio.com/Download"> here</a>.</p>
+                <h3>For Notes and Review</h3>
+                <p>Want some extra study material? Do you just want to get ahead? No problem! </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>r

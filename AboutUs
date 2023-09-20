@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title> Townview Magnet Coding Club </title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="fusion.css">
+</head>
+
+<body>
+    <div class="box-area">
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="club.html">
+                    <img src="LOGOTMCCv2-removebg-preview.png" width="80" height="80" alt="TMCC Logo">
+                </div>
+                <div>
+                    <p class="pls"> Townview Magnet Coding Club </p>
+                </a>
+                </div>
+                <nav>
+                    <a  href="AboutUS.html"> About Us </a>
+                    <a  href="Missionn.html"> Mission </a>
+                    <a  href="Referrences.html"> Referrences </a>
+                    <a  href="Contact.html"> Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="banner-area">
+            <h2>About Us</h2>
+        </div>
+
+        <div class="content-area">
+            <div class="wrapper">
+                <h2>Meet Our Founders</h2>
+                <p> Among sus. Red is the imposter for real for real, on gah on gah.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

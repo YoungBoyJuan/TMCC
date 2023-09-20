@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title> Townview Magnet Coding Club </title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="fusion.css">
+</head>
+
+<body>
+    <div class="box-area">
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="club.html">
+                    <img src="LOGOTMCCv2-removebg-preview.png" width="80" height="80" alt="TMCC Logo">
+                </div>
+                <div>
+                    <p class="pls"> Townview Magnet Coding Club </p>
+                </a>
+                </div>
+                <nav>
+                    <a  href="AboutUS.html"> About Us </a>
+                    <a  href="Missionn.html"> Mission </a>
+                    <a  href="Referrences.html"> Referrences </a>
+                    <a  href="Contact.html"> Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="banner-area">
+            <h2>Mission</h2>
+        </div>
+
+        <div class="content-area">
+            <div class="wrapper">
+                <h2>Our Vision</h2>
+                <p> Among sus. Red is the imposter for real for real, on gah on gah.</p>
+                <p>  
+                    Hello, world. I am Juan Gonzalez, and I love throwing and selling products that help me throw.
+                    <br> Join me on my journey to learn how not to throw.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

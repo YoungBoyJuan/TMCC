@@ -9,18 +9,18 @@
     <div class="box-area">
         <header>
             <div class="wrapper">
+                <a href="club.html">
                 <div class="logo">
-                    <img src="favicon.ico" width="65" height="65"> 
+                    <img src="LOGOTMCCv2-removebg-preview.png" width="80" height="80" alt="TMCC logo"> 
                 </div>
                 <div>
-                    <a href="club.html">
                     <p class="pls"> Townview Magnet Coding Club </p>
-                    </a>
+                </a>
                 </div>
                 <nav>
-                    <a  href="#"> About Us</a>
-                    <a  href="#"> Mission</a>
-                    <a  href="#"> Referrences</a>
+                    <a  href="AboutUS.html"> About Us</a>
+                    <a  href="Missionn.html"> Mission</a>
+                    <a  href="Referrences.html"> Referrences</a>
                     <a  href="Contact.html"> Contact</a>
                 </nav>
             </div>
@@ -32,7 +32,12 @@
 
         <div class="content-area">
             <div class="wrapper">
-               
+               <h2> Where to Find Us</h2>
+               <br>
+               <h3> For General Questions, You Can Email Us at-</h3>
+               <p>  townviewcodingclub@gmail.com </p>
+               <h3> Come See More of Us or Send Us a Message on Our Social Media!</h3>
+               <p>Instagram: @the.tmcc</p>
             </div>
         </div>
     </div>

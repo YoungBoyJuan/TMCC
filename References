@@ -20,7 +20,7 @@
                 <nav>
                     <a  href="AboutUS.html"> About Us </a>
                     <a  href="Missionn.html"> Mission </a>
-                    <a  href="Referrences.html"> References </a>
+                    <a  href="Referrences.html"> Referrences </a>
                     <a  href="Contact.html"> Contact</a>
                 </nav>
             </div>
@@ -32,7 +32,7 @@
 
         <div class="content-area">
             <div class="wrapper">
-                <h2>Tools and References Used</h2>
+                <h2>Tools and Referrences Used</h2>
                 <br>
                 <h3>IDEs</h3>
                 <p> The <abbr title="Integrated Development Enviroment">IDE</abbr> we will use the most often
@@ -46,4 +46,4 @@
         </div>
     </div>
 </body>
-</html>r
+</html>

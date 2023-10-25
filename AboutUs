@@ -27,13 +27,17 @@
         </header>
 
         <div class="banner-area">
-            <h2>About Us</h2>
+            <h2>Join Our Adventure of Code</h2>
         </div>
 
         <div class="content-area">
             <div class="wrapper">
-                <h2>Meet Our Founders</h2>
+                <h2>Among Us in Real Life</h2>
                 <p> Among sus. Red is the imposter for real for real, on gah on gah.</p>
+                <p>  
+                    Hello, world. I am Juan Gonzalez, and I love throwing and selling products that help me throw.
+                    <br> Join me on my journey to learn how not to throw.
+                </p>
             </div>
         </div>
     </div>

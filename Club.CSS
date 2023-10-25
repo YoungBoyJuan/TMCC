@@ -1,107 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 header{
-    width:100%;
-    height: 105px;
-    background-image:linear-gradient(rgb(112, 112, 121), rgb(89, 93, 100), rgb(59, 63, 71), rgb(41, 41, 56));
-    position:fixed;
-  }
-  .header-area{
-    text-align: left;
-    font-size: larger;
-  
-  }
-  .logo{
-    float: left;
-    text-align:left;
-    line-height:155px;
-  }
-  
-  .pls{
-      float: left;
-      text-align:left;
-      padding-left: 10px;
-      line-height: 66px;
-      text-decoration: none;
-      font-size: 18px;
-      font-family:Georgia, 'Times New Roman', Times, serif;
-      color:white;
-      letter-spacing: 1px;
-  }
-  
-  nav{
-    float: right;
-    line-height: 100px;
-  }
-  
-  nav a{
-    text-decoration:none;
-    font-family: myFont;
-    letter-spacing: 4px;
-    font-size: 20px;
-    color: white;
-    padding: 36px 10px;
-    margin: 0.01px;
-    font-weight: 500;
-  }
-  
-  nav a:hover{
-    color: rgb(209, 205, 205);
-  transition: .15ms;text-decoration: underline white;
-  
-  
-  }
-  
-  nav a:active{
-    opacity: .5;
-  
-  }
-  .banner-area{
-    background-image: url(Programming_code.jpg);
-    background-size: cover;
-    background-position: center;
-    top: 100px;
-    height: 40vh;
-    width: 100%;
-    position: fixed;
-  }
-  
-  .banner-area:after{
-    content: ' ';
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
-    opacity: .5;
-    z-index: -1;
-  }
-  
-  .banner-area h2{
-    padding-top: 0%;
-    font-size: 80px;
-    color: white;
-  }
-  
-  .content-area{
-    width: 102%;
-    height: 790px;
-    position: relative;
-    background-color: rgb(255, 255, 255);
-    top: 500px;
-  }
-  
-  .content-area h2{
-    font-size: 40px;
-    margin: 0;
-    padding-top: 30px;
-    letter-spacing: 4px;
-    color: white;
-  }
-  
-  .content-area p{
-    font-family: myFont;
-    padding: 2% 0;
-    line-height: 30px;
-    text-align: justify;
-    color: white;
-  }
+  width: 100%;
+  height:100px;
+  position:fixed;
+  background-image:linear-gradient(rgb(112,112,121), rgb(89,93,100), rgb(59,63,71), rgb(41,41,56));
+}
+
+.logo{
+  float: left;
+  text-align:left;
+  line-height:170px;
+}
+
+.pls{
+  float: left;
+  text-align:left;
+  padding-left: 30px;
+  line-height: 100px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:white;
+  letter-spacing: 1px;
+}
+
+nav{
+  float: right;
+  line-height: 100px;
+}
+
+nav a{
+  text-decoration:none;
+  font-family: myFont;
+  letter-spacing: 4px;
+  font-size: 20px;
+  color: white;
+  padding: 36px 10px;
+  margin: 0.01px;
+  font-weight: 500;
+}
+
+nav a:hover{
+  background-color: gold;
+  color: navy;
+}
+
+.banner-area{
+  background-image: url(Programming_code.jpg);
+  background-size: cover;
+  background-position: center center;
+  top: 100px;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+}
+
+.banner-area-contact{
+  background-image: url(th.jpg);
+  background-size: cover;
+  background-position: center center;
+  top: 100px;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+}
+
+.banner-area-contact  h2{
+  text-align: center;
+  padding-top: 8%;
+  font-size: 80px;
+  color: white;
+}
+
+.banner-area-contact:after{
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(12, 94, 5);
+  opacity: .7;
+  z-index: -1; 
+}
+
+
+.banner-area:after{
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color:rgb(12, 94, 5);
+  opacity: .7;
+  z-index: -1;
+}
+
+.banner-area h2{
+  text-align: center;
+  padding-top: 8%;
+  font-size: 80px;
+  color: white;
+}
+
+.content-area{
+  width: 100%;
+  height: 800px;
+  position: relative;
+  background-color: white;
+  top: 450px;
+}
+
+.content-area h2{
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  padding-top: 30px;
+  letter-spacing: 4px;
+}
+
+.content-area p{
+  text-align: center;
+  font-family: myFont;
+  padding: 2% 0;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.wrapper{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.wrapper p {
+  text-align: center;
+}
+
+.wrapper h3{
+  text-align: center;
+  text-decoration: underline dotted;
+}
